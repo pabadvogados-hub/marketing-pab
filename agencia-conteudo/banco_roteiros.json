@@ -1,0 +1,285 @@
+{
+  "_nota": "Banco de roteiros pre-escritos. O cron manda o proximo lote nao enviado quando a API esta indisponivel. Marcadores entre [colchetes] devem ser trocados por dados reais na hora de gravar.",
+  "lotes": [
+    {
+      "id": "lote-01",
+      "roteiros": [
+        {
+          "persona": "Andrew Tate",
+          "tema": "disciplina e hábitos",
+          "gancho": "Motivação é o que te faz começar na segunda. Disciplina é o que te faz continuar na quinta.",
+          "corpo": "E é na quinta que a sua vida é decidida. Todo mundo consegue ser incrível por três dias. O problema é que ninguém constrói nada em três dias.\n\nVocê não tem problema de vontade. Você tem problema de decisão. Porque motivação depende de como você acordou, e decisão não depende de nada. Ela já foi tomada ontem, quando você ainda estava forte.\n\nO você das seis da manhã é fraco. Ele vai negociar, vai inventar desculpa, vai dizer que amanhã compensa. O você da noite anterior é forte. Deixa o forte no comando e tira o fraco da mesa de negociação.\n\nEu faço isso há [X meses]: domingo à noite eu escrevo três coisas que vão acontecer na semana. Não dez. Três. E elas acontecem, porque não sobrou espaço pra discutir.",
+          "cta": "Comenta DISCIPLINA que eu te mando o formato exato que eu uso."
+        },
+        {
+          "persona": "Alex Hormozi",
+          "tema": "negócios e vendas",
+          "gancho": "Se o seu serviço é bom e mesmo assim é difícil de vender, o problema não é o serviço. É a oferta.",
+          "corpo": "São duas coisas diferentes. Serviço é o que você entrega. Oferta é o que a pessoa compra. Dá pra ter o melhor serviço do mercado e uma oferta que ninguém quer.\n\nOferta boa tem quatro alavancas. Um: resultado, o que a pessoa ganha, em número, não em adjetivo. Dois: tempo, em quanto tempo ela ganha isso. Três: esforço, o quanto ela vai ter que fazer. Quatro: risco, quem paga a conta se der errado.\n\nVocê não precisa mexer nas quatro. Mexe em uma e a conversão muda.\n\nPega a sua oferta agora. Se você não consegue preencher as quatro em uma frase só, o seu cliente também não consegue. E cliente que não entende não compra: ele adia. Adiar é a forma educada de dizer não.",
+          "cta": "Salva esse vídeo antes de escrever sua próxima proposta."
+        },
+        {
+          "persona": "Ryan",
+          "tema": "mentalidade e crenças",
+          "gancho": "Sonhe grande é o conselho mais caro que já te deram. E eu vou provar.",
+          "corpo": "Porque sonho grande te dá a sensação de progresso sem nenhum progresso. Você monta o quadro de visão, escreve a meta de sete dígitos, sente o arrepio, e o seu cérebro registra isso como se você já tivesse feito. Aí você não faz.\n\nE fica viciado nessa sensação, que é de graça, em vez do trabalho, que é caro.\n\nTodo mundo que você admira não começou com um sonho grande. Começou com uma tarefa pequena e humilhante que ninguém queria fazer. Fez mal feito. Fez de novo. Fez oitocentas vezes. E aí, depois, o sonho grande apareceu — como consequência, não como ponto de partida.\n\nAmbição sem tédio é fantasia. Se você não aguenta a parte chata, você não quer o resultado. Você quer a foto do resultado.",
+          "cta": "Discorda? Fala nos comentários. Mas responde antes: o que você fez hoje que foi chato?"
+        },
+        {
+          "persona": "Tony Robbins",
+          "tema": "produtividade e foco",
+          "gancho": "Você não muda a sua vida pensando diferente. Você muda mudando o estado primeiro.",
+          "corpo": "E isso não é frase bonita, é fisiologia. Postura, respiração e movimento chegam antes do pensamento.\n\nRepara: quando você está curvado, respirando raso, olhando pra baixo, é impossível ter um pensamento poderoso naquele corpo. O corpo não deixa.\n\nPor isso pensa positivo não funciona pra ninguém. Você está pedindo pro andar de cima resolver um problema do andar de baixo.\n\nInverte. Levanta o queixo. Puxa o ar fundo por quatro segundos. Coloca o peso nos dois pés. Faz isso por noventa segundos e repara que o pensamento muda sozinho, sem você mandar.\n\nDecisão não vem da lógica. Vem do estado em que você estava quando decidiu. É por isso que a mesma pessoa desiste na terça e se acha invencível no sábado. Não mudou a informação. Mudou o corpo.",
+          "cta": "Faz o teste agora, antes de sair do vídeo. Depois volta e me conta o que mudou."
+        },
+        {
+          "persona": "Jim Rohn",
+          "tema": "storytelling e comunicação",
+          "gancho": "Você é a média das cinco pessoas com quem mais conversa. E isso não é elogio, é aviso.",
+          "corpo": "Ninguém enriquece sozinho. E ninguém empobrece sozinho também. Você absorve o ambiente do mesmo jeito que a planta absorve o solo. Não importa o quanto ela quer crescer: solo pobre, planta pequena.\n\nO mais perigoso é que isso é lento. Você não sente acontecendo. Você percebe cinco anos depois.\n\nE ambiente não é só gente. É o que você lê. É o que você ouve no carro. É o que você tolera de si mesmo quando ninguém está vendo.\n\nFilosofia não é frase na parede. É a soma das suas escolhas pequenas repetidas por muito tempo. Disciplina pesa gramas. Arrependimento pesa toneladas. Escolha qual você quer carregar.\n\nNão dá pra mudar de vida sem mudar de conversa. E às vezes isso custa uma amizade. Custa mesmo. Mas custa menos que os cinco anos.",
+          "cta": "Marca alguém que te puxa pra cima. E pensa dois segundos em quem você não marcou."
+        }
+      ]
+    },
+    {
+      "id": "lote-02",
+      "roteiros": [
+        {
+          "persona": "Andrew Tate",
+          "tema": "mentalidade e crenças",
+          "gancho": "Você não está cansado. Você está entediado com uma vida que você mesmo escolheu.",
+          "corpo": "Existe uma diferença que quase ninguém faz. Cansaço vem de esforço. Tédio vem de ausência de propósito. E a maioria das pessoas confunde os dois porque é mais confortável dizer estou exausto do que dizer eu me acomodei.\n\nRepara uma coisa: você dorme oito horas e acorda quebrado. Mas quando aparece algo que te interessa de verdade, você vira a noite e acorda inteiro. Isso não é energia. Isso é direção.\n\nCorpo cansado se recupera dormindo. Homem sem direção não se recupera com nada. Ele só fica pior, mais lento, mais confortável, até o dia em que não reconhece mais o cara no espelho.\n\nEntão para de tratar sintoma. O seu problema não é sono. É que faz [X tempo] que você não persegue nada difícil.",
+          "cta": "Comenta DIREÇÃO se isso te acertou."
+        },
+        {
+          "persona": "Alex Hormozi",
+          "tema": "produtividade e foco",
+          "gancho": "Você não tem falta de tempo. Você tem excesso de prioridade.",
+          "corpo": "Prioridade, na origem da palavra, era singular. Não existia plural. Você tinha uma. Foi o mundo corporativo que inventou ter cinco prioridades, que é a forma educada de dizer que não tem nenhuma.\n\nFaz o seguinte teste agora. Lista as coisas que você quer avançar neste mês. Se deu mais de três, você não tem um plano, você tem uma lista de desejos.\n\nO motivo é matemático. Toda tarefa tem um custo fixo de entrada: você para, lembra onde estava, se recontextualiza. Quanto mais frentes, mais você paga esse pedágio e menos sobra pro trabalho real.\n\nUma coisa feita até o fim vale mais que cinco coisas em oitenta por cento. Porque oitenta por cento não entrega nada. Não fatura, não publica, não conta.",
+          "cta": "Salva e faz o corte hoje: das suas prioridades, qual você mata primeiro?"
+        },
+        {
+          "persona": "Ryan",
+          "tema": "storytelling e comunicação",
+          "gancho": "Ninguém quer a sua dica. Todo mundo quer a sua cicatriz.",
+          "corpo": "E é por isso que o seu conteúdo não engaja. Você está entregando informação num mundo afogado em informação. Qualquer pessoa acha a sua dica em três segundos, de graça, escrita melhor.\n\nO que ninguém acha é o que aconteceu com você.\n\nMas aí vem o problema: contar cicatriz dói. É muito mais confortável ser o especialista que ensina cinco passos do que ser o cara que admite que quebrou a cara. Então todo mundo escolhe a versão segura e produz conteúdo que ninguém lembra no dia seguinte.\n\nDica gera concordância. Cicatriz gera identificação. E ninguém compra de quem concorda com ele. As pessoas compram de quem já esteve onde elas estão.\n\nSe o seu conteúdo não te expõe um pouco, ele não está te construindo. Está só te ocupando.",
+          "cta": "Qual foi a última vez que você contou uma derrota sua em público? Comenta."
+        },
+        {
+          "persona": "Tony Robbins",
+          "tema": "disciplina e hábitos",
+          "gancho": "Você não precisa de mais força de vontade. Você precisa de menos decisões.",
+          "corpo": "Força de vontade não é caráter. É combustível. Ela acaba. E cada decisão que você toma queima um pouco dela.\n\nPensa no seu dia: o que vestir, o que comer, responder agora ou depois, treinar hoje ou amanhã. São dezenas de micro-decisões antes do meio-dia. Quando chega a hora que realmente importa, o tanque está vazio, e aí você escolhe o mais fácil e se chama de indisciplinado.\n\nVocê não é indisciplinado. Você está gastando disciplina em coisa que não merece.\n\nA saída é transformar decisão em rotina. O que vira rotina não consome nada. Você não decide escovar o dente, você escova.\n\nEntão escolhe uma coisa só, hoje. Uma. E fixa: mesmo horário, mesmo lugar, mesmo gatilho. Em três semanas ela para de custar.",
+          "cta": "Qual decisão você vai transformar em rotina esta semana? Escreve nos comentários pra valer."
+        },
+        {
+          "persona": "Jim Rohn",
+          "tema": "negócios e vendas",
+          "gancho": "Não deseje que seja mais fácil. Deseje que você seja melhor.",
+          "corpo": "Porque o mercado não vai baixar de nível pra te acomodar. Ele não está nem sabendo que você existe.\n\nA maioria das pessoas passa a vida esperando a condição melhorar. Esperando a economia, o momento, a temporada boa, o cliente ideal. E enquanto espera, não muda nada em si mesma. Aí quando a condição melhora, ela continua a mesma pessoa, e o resultado continua o mesmo.\n\nHabilidade é a única coisa que ninguém tira de você. Não some na crise, não depende de sorte, não expira.\n\nSe você ganha o que ganha hoje, é porque vale o que vale hoje. Isso não é julgamento, é aritmética. E aritmética se muda estudando, praticando, errando na frente de alguém melhor que você.\n\nTrabalhe mais em você do que no seu trabalho. O trabalho segue.",
+          "cta": "Anota essa: no que você vai ficar melhor nos próximos noventa dias?"
+        }
+      ]
+    },
+    {
+      "id": "lote-03",
+      "roteiros": [
+        {
+          "persona": "Andrew Tate",
+          "tema": "negócios e vendas",
+          "gancho": "Você não é caro. Você é desconhecido. São problemas completamente diferentes.",
+          "corpo": "Todo mundo que ouve não, esse valor está alto, corre pra baixar o preço. E aí destrói o negócio pra resolver um problema que nem era de preço.\n\nEscuta: quando alguém confia em você, preço vira detalhe. Quando alguém não confia, qualquer valor é caro. Inclusive de graça é caro, porque de graça também custa o tempo dela.\n\nEntão para de mexer no número e começa a mexer na percepção. Quantas pessoas sabem exatamente o que você faz? Quantas já te viram entregar? Quantas já ouviram alguém falar bem de você sem você estar na sala?\n\nSe a resposta é pouca, o seu problema não é tabela de preço. É que você é invisível.\n\nInvisível não negocia. Invisível aceita o que aparece.",
+          "cta": "Comenta VALOR e eu te mostro por onde começar."
+        },
+        {
+          "persona": "Alex Hormozi",
+          "tema": "storytelling e comunicação",
+          "gancho": "Clareza vende mais que persuasão. E custa muito menos.",
+          "corpo": "As pessoas gastam anos aprendendo gatilho mental e técnica de fechamento, quando o motivo real de não estarem vendendo é que ninguém entendeu o que elas fazem.\n\nTem um teste simples. Explica o que você faz pra alguém de doze anos. Se a criança não repete de volta corretamente, sua mensagem está quebrada. Não é o público que é burro. É a mensagem que é confusa.\n\nE confusão tem um custo específico: ela não gera não. Ela gera silêncio. A pessoa não discorda de você, ela simplesmente segue a vida.\n\nA correção é chata e funciona. Corta jargão. Corta adjetivo. Diz para quem é, o que muda, e em quanto tempo. Três informações.\n\nQuem entende rápido decide rápido. Quem não entende, adia pra sempre.",
+          "cta": "Escreve nos comentários o que você faz em uma frase. Eu te digo se está claro."
+        },
+        {
+          "persona": "Ryan",
+          "tema": "produtividade e foco",
+          "gancho": "Acordar às cinco da manhã não te faz vencedor. Te faz alguém com sono.",
+          "corpo": "Virou religião nas redes. Mas ninguém pergunta a única coisa que importa: acordar cedo pra fazer o quê?\n\nPorque tem gente levantando às cinco pra passar quarenta minutos rolando o feed, tomar café, arrumar a mesa, escolher a playlist, e começar a trabalhar às sete e meia. Essa pessoa não acordou cedo. Ela só antecipou a enrolação.\n\nHorário não é resultado. Horário é estética. E estética de produtividade é a forma mais sofisticada de procrastinar, porque parece disciplina.\n\nO que separa quem entrega de quem não entrega não é a hora do despertador. É quanto tempo passa entre acordar e a primeira tarefa difícil do dia.\n\nSe você acorda às oito e às oito e dez já está no problema mais difícil, você está na frente de noventa por cento das pessoas que acordaram às cinco.",
+          "cta": "Quanto tempo passa entre você acordar e começar o que importa? Responde honestamente aí embaixo."
+        },
+        {
+          "persona": "Tony Robbins",
+          "tema": "mentalidade e crenças",
+          "gancho": "A pergunta que você faz pra si mesmo determina a resposta que a sua vida te dá.",
+          "corpo": "Seu cérebro é uma máquina de responder. Ele não avalia se a pergunta é boa. Ele só procura resposta.\n\nEntão quando você pergunta por que isso sempre acontece comigo, ele obedece. Ele vai buscar provas, e vai achar. Vai te trazer uma lista de tudo que deu errado desde criança. Não porque ele é cruel, mas porque foi exatamente isso que você pediu.\n\nAgora troca a pergunta. O que isso está tentando me ensinar? O que eu ainda não vi aqui? Qual é a única coisa que, se eu resolver, resolve o resto?\n\nMesma situação. Mesmos fatos. Cérebro completamente diferente trabalhando pra você.\n\nAs pessoas acham que precisam mudar de vida. Muitas vezes elas precisam mudar de pergunta. E isso você faz agora, sem esperar nada, sem depender de ninguém.",
+          "cta": "Qual pergunta ruim você se faz todo dia? Escreve ela e depois escreve a versão melhor."
+        },
+        {
+          "persona": "Jim Rohn",
+          "tema": "disciplina e hábitos",
+          "gancho": "O sucesso são poucas disciplinas simples praticadas todos os dias.",
+          "corpo": "E o fracasso são poucos erros de julgamento repetidos todos os dias. A diferença entre os dois, num único dia, é praticamente invisível.\n\nÉ isso que engana as pessoas. Ninguém quebra por causa de uma decisão. Ninguém vence por causa de uma decisão. Quebra e vitória são acúmulo.\n\nPular um treino não te faz mal nenhum. Pular todo dia te custa a saúde. Ler dez páginas não muda sua vida hoje. Ler dez páginas por cinco anos te torna outra pessoa.\n\nO perigo do erro pequeno é justamente que ele não dói. Se doesse, você corrigia. Como não dói, você repete. E repetir é o que constrói tudo, inclusive o que você não queria.\n\nNão é o que acontece com você que decide. É o que você faz, todo dia, sem plateia.",
+          "cta": "Escolhe uma disciplina simples e comenta ela aqui. Daqui a trinta dias volta e me conta."
+        }
+      ]
+    },
+    {
+      "id": "lote-04",
+      "roteiros": [
+        {
+          "persona": "Andrew Tate",
+          "tema": "produtividade e foco",
+          "gancho": "Você não está ocupado. Você está evitando a única tarefa que importa.",
+          "corpo": "Existe sempre uma tarefa no seu dia que dá um frio na barriga. É a ligação difícil, é a conversa que você adia, é a proposta que você não manda, é o número que você não quer olhar.\n\nE existe uma lista enorme de coisas fáceis que você faz pra não fazer aquela.\n\nResponder e-mail é fácil. Organizar pasta é fácil. Estudar mais um pouco antes de começar é fácil. E tudo isso dá a sensação de trabalho, o que é o veneno perfeito: você termina o dia exausto e não avançou um centímetro.\n\nHomem forte não é o que faz mais coisa. É o que faz a coisa que dói, primeiro, antes que o dia invente desculpa por ele.\n\nVocê já sabe qual é a sua. Você soube desde que começou a assistir isso.",
+          "cta": "Faz ela nos próximos sessenta minutos e volta aqui pra comentar FEITO."
+        },
+        {
+          "persona": "Alex Hormozi",
+          "tema": "mentalidade e crenças",
+          "gancho": "Você não está começando devagar. Você está começando de novo toda semana.",
+          "corpo": "Tem uma diferença brutal entre progresso lento e recomeço constante, e quase todo mundo confunde os dois.\n\nProgresso lento acumula. Você anda pouco, mas anda a partir de onde parou. Recomeço não acumula nada. Você anda, para, volta pro zero, e anda de novo o mesmo pedaço.\n\nPor isso tem gente que está no mesmo lugar há três anos se sentindo esforçada. Ela realmente se esforçou. Só que gastou tudo repetindo o primeiro quilômetro.\n\nO teste é objetivo: o que você fez este mês foi construído em cima do mês passado, ou foi do zero outra vez?\n\nSe foi do zero, o problema não é o seu esforço, é a sua consistência. E consistência mediana sustentada bate esforço genial interrompido. Sempre. Não é opinião, é juro composto.",
+          "cta": "Salva isso e responde: o que você está construindo há mais de seis meses sem parar?"
+        },
+        {
+          "persona": "Ryan",
+          "tema": "disciplina e hábitos",
+          "gancho": "Encontrar o seu propósito é a desculpa mais elegante pra não fazer nada.",
+          "corpo": "Porque enquanto você procura, você não precisa executar. E procurar parece nobre, então ninguém te cobra.\n\nTem gente há oito anos buscando o propósito. Fez terapia, curso, retiro, teste de personalidade. E não construiu absolutamente nada, porque construir exige escolher, e escolher exige abrir mão.\n\nA verdade incômoda é que propósito quase nunca vem antes. Ele vem depois. Você começa alguma coisa razoável, fica bom nela, as pessoas passam a te procurar por causa dela, e aí aquilo ganha sentido.\n\nSentido é consequência de competência, não pré-requisito dela.\n\nNinguém se apaixona pelo que faz mal feito. Você se apaixona pelo que faz bem. E fazer bem exige atravessar um longo período fazendo mal.",
+          "cta": "Você está construindo ou ainda procurando? Responde aí, sem enfeitar."
+        },
+        {
+          "persona": "Tony Robbins",
+          "tema": "negócios e vendas",
+          "gancho": "As pessoas não compram o que você faz. Elas compram como se sentem perto de você.",
+          "corpo": "E isso muda tudo na sua forma de vender.\n\nRepara na última compra grande que você fez. Você comparou especificação? Talvez. Mas o que fechou não foi a planilha. Foi o momento em que você sentiu segurança. Sentiu que ali ia dar certo.\n\nDecisão é emocional e depois justificada pela razão. Nessa ordem. Sempre nessa ordem.\n\nEntão quando você atende alguém, a primeira coisa não é apresentar. É mudar o estado da pessoa. Ela chega tensa, desconfiada, com pressa. Se ela sair da conversa do mesmo jeito que entrou, você não vendeu nada, você só falou.\n\nBaixa o seu ritmo. Faz pergunta de verdade. Escuta sem preparar a resposta. Quando o estado dela muda, a objeção some sozinha, porque a objeção quase sempre era medo com roupa de argumento.",
+          "cta": "Testa isso no próximo atendimento e volta aqui pra me contar o que mudou."
+        },
+        {
+          "persona": "Jim Rohn",
+          "tema": "storytelling e comunicação",
+          "gancho": "Se você não conta a sua história, alguém vai contar por você. E vai contar errado.",
+          "corpo": "As pessoas vão preencher o silêncio com o que elas imaginam. E o que elas imaginam raramente é generoso.\n\nMuita gente boa passa a vida inteira sendo subestimada não porque falta trabalho, mas porque falta narrativa. Faz muito, conta pouco, e depois se ressente de não ser reconhecida.\n\nContar a sua história não é vaidade. É informação. É deixar claro de onde você veio, o que você atravessou e por que faz o que faz. Sem isso, você é só mais um prestador de serviço, e prestador de serviço se troca por preço.\n\nQuem tem história não se troca por preço. Se troca por confiança, e confiança não tem tabela.\n\nMas a história precisa ser verdadeira. Porque história inventada dura pouco, e quando cai, leva junto tudo que você construiu.",
+          "cta": "Conta nos comentários uma coisa da sua história que quase ninguém sabe."
+        }
+      ]
+    },
+    {
+      "id": "lote-05",
+      "roteiros": [
+        {
+          "persona": "Andrew Tate",
+          "tema": "storytelling e comunicação",
+          "gancho": "Quem fala baixo demais não é humilde. É alguém que ainda não decidiu ser levado a sério.",
+          "corpo": "Tem gente que trabalha melhor que todo mundo na sala e sai da reunião sem que ninguém lembre do que ela disse. E aí se convence de que o mundo é injusto.\n\nNão é injustiça. É que você entregou a sua ideia num tom que dizia: não precisa levar isso muito a sério.\n\nComunicação não é só conteúdo. É postura, é ritmo, é pausa, é olhar. A pessoa decide se vai te ouvir nos primeiros segundos, antes de processar uma palavra do que você falou.\n\nE não estou falando de gritar. Quem grita também não é levado a sério, é evitado. Estou falando de ocupar o seu espaço sem pedir licença pra existir.\n\nFala mais devagar. Termina a frase. Não sobe o tom no final como se fosse pergunta. Sustenta o silêncio depois de dizer algo importante.\n\nO conteúdo era bom. Faltava a moldura.",
+          "cta": "Comenta VOZ se você já foi ignorado numa sala tendo razão."
+        },
+        {
+          "persona": "Alex Hormozi",
+          "tema": "disciplina e hábitos",
+          "gancho": "Meta não te faz avançar. Sistema te faz avançar. Meta só te faz sentir culpa.",
+          "corpo": "Meta é um resultado que você não controla. Sistema é um comportamento que você controla. Confundir os dois é a origem de quase toda frustração.\n\nExemplo. Ganhar dez mil por mês é meta. Você não controla isso: depende de mercado, de cliente, de timing. Falar com cinco pessoas novas por dia é sistema. Isso você controla integralmente, chova ou faça sol.\n\nQuem persegue meta oscila entre euforia e desespero, porque o placar não obedece. Quem opera sistema acorda e sabe exatamente o que fazer, independente de como o mês está.\n\nE tem um detalhe: o sistema produz a meta como subproduto. Falando com cinco pessoas por dia durante um ano, o número aparece. Não porque você quis, mas porque a matemática não tem escolha.\n\nDefine o comportamento diário e esquece o placar por noventa dias.",
+          "cta": "Qual é o seu número diário? Comenta ele aqui pra ficar registrado."
+        },
+        {
+          "persona": "Ryan",
+          "tema": "negócios e vendas",
+          "gancho": "Networking é a palavra bonita pra pedir favor a quem não te deve nada.",
+          "corpo": "E é por isso que a maioria dos eventos de networking não gera negócio nenhum. Sai todo mundo com o celular cheio de contato e a agenda vazia.\n\nO erro é o vetor. As pessoas chegam perguntando o que você faz, na esperança de encaixar o próprio serviço. Isso não é relacionamento, é abordagem comercial disfarçada, e todo mundo sente.\n\nRelacionamento de verdade começa quando você é útil antes de ser conveniente. Você apresenta duas pessoas que precisavam se conhecer. Você manda o material que resolve o problema que a pessoa comentou de passagem. Sem cobrar nada, sem lembrar depois.\n\nParece lento. É lento. Mas em dois anos você tem uma rede que te defende quando você não está na sala, e isso não se compra com cartão de visita.\n\nQuem coleciona contato tem lista. Quem gera valor tem rede.",
+          "cta": "Concorda ou acha romantismo? Fala nos comentários."
+        },
+        {
+          "persona": "Tony Robbins",
+          "tema": "storytelling e comunicação",
+          "gancho": "O medo de falar em público não é medo de falar. É medo de ser julgado.",
+          "corpo": "E como o problema está mal diagnosticado, a solução também está. Você decora mais, ensaia mais, prepara mais slide, e continua tremendo, porque nada disso toca a causa.\n\nRepara no seu corpo quando você vai falar: ombro sobe, respiração encurta, mandíbula trava. Esse é o mesmo padrão de quando você está em perigo. Seu corpo não sabe diferenciar plateia de ameaça, então ele te prepara pra fugir.\n\nA saída não é pensar diferente. É desarmar o corpo antes.\n\nAntes de entrar, faz isso: expira mais longo do que inspira, por um minuto. Solta a mandíbula. Coloca os pés firmes e sente o chão. E troca a pergunta interna: em vez de será que vão gostar de mim, pergunta o que eu quero que essas pessoas levem daqui.\n\nA primeira pergunta te coloca no centro. A segunda te tira do centro. E fora do centro não tem julgamento pra doer.",
+          "cta": "Faz o exercício antes da sua próxima reunião e me conta se mudou."
+        },
+        {
+          "persona": "Jim Rohn",
+          "tema": "produtividade e foco",
+          "gancho": "Nunca comece o dia até que ele esteja terminado no papel.",
+          "corpo": "Porque o dia que começa sem plano é preenchido pela urgência dos outros. E a urgência dos outros nunca é a sua prioridade.\n\nÉ curioso: as pessoas planejam viagem com meses de antecedência, escolhem hotel, horário, restaurante. E entram numa segunda-feira, que vai custar um pedaço da vida delas, sem nenhuma ideia do que vai acontecer.\n\nDez minutos na véspera valem mais que duas horas de improviso no dia seguinte. Não porque você vai cumprir tudo, você não vai. Mas porque quando o inesperado chegar, e ele sempre chega, você vai saber o que pode ceder e o que não pode.\n\nQuem não sabe o que é inegociável cede tudo. E no fim do ano olha pra trás e não sabe dizer onde o tempo foi parar.\n\nDisciplina não é rigidez. É saber onde você não abre mão.",
+          "cta": "Hoje à noite, dez minutos, escreve o dia de amanhã. Comenta PAPEL se topar."
+        }
+      ]
+    },
+    {
+      "id": "lote-06",
+      "roteiros": [
+        {
+          "persona": "Andrew Tate",
+          "tema": "disciplina e hábitos",
+          "gancho": "Conforto é a coisa mais cara que você compra. E você paga todo dia sem perceber.",
+          "corpo": "Ninguém desiste dos seus objetivos numa decisão dramática. Não tem cena, não tem trilha sonora. Você só escolhe o mais fácil, uma vez, e depois de novo, e depois vira quem você é.\n\nDormir mais dez minutos é barato. Não ir hoje é barato. Deixar pra segunda é barato. Cada um desses custa quase nada, e é exatamente por isso que você compra todos.\n\nA fatura chega junta, anos depois, e vem com um nome específico: potencial desperdiçado. É a única dívida que não dá pra renegociar.\n\nA regra que eu uso é simples. Quando aparecem duas opções e uma é claramente mais confortável, essa provavelmente é a errada. Não sempre. Mas quase sempre.\n\nNão precisa ser sofrimento. Precisa ser resistência. Coisa que empurra de volta é o que constrói músculo, no corpo e em tudo o mais.",
+          "cta": "Comenta CONFORTO e me diz qual escolha fácil você vai recusar hoje."
+        },
+        {
+          "persona": "Alex Hormozi",
+          "tema": "negócios e vendas",
+          "gancho": "Preço não é o que você cobra. É o que a pessoa acredita que vai perder se não comprar.",
+          "corpo": "Por isso duas empresas cobram valores completamente diferentes pela mesma entrega técnica, e as duas vendem.\n\nCliente não compara seu preço com o seu custo. Ele compara com a dor de continuar como está. Se essa dor for pequena, qualquer valor é caro. Se for grande e ele enxergar isso com clareza, o valor vira detalhe.\n\nO erro clássico é passar a conversa inteira falando do que você entrega. Entrega é o depois. A decisão acontece no antes.\n\nEntão o trabalho é ajudar a pessoa a calcular o custo da inércia. Quanto custa mais um ano assim? Quanto já custou até aqui? O que deixa de existir se nada mudar?\n\nIsso não é manipulação, é aritmética que ela nunca parou pra fazer. Quem faz essa conta decide sozinho, e decide rápido.",
+          "cta": "Salva e escreve: qual é o custo de não te contratar? Se você não sabe, o cliente também não sabe."
+        },
+        {
+          "persona": "Ryan",
+          "tema": "mentalidade e crenças",
+          "gancho": "Saia da zona de conforto é conselho de quem nunca esteve em risco de verdade.",
+          "corpo": "Vou dizer uma coisa impopular: zona de conforto não é vilã. Ela é base. Ninguém arrisca bem sem ter chão.\n\nO problema nunca foi ter conforto. Foi ficar tempo demais nele sem nunca esticar a borda.\n\nE o discurso do risco total, larga tudo, aposta tudo, é vendido por quem tinha rede de segurança e não conta essa parte. É fácil arriscar quando existe alguém pra pagar a conta se der errado.\n\nO que funciona de verdade é bem menos fotogênico: risco pequeno, frequente, reversível. Você estica dez por cento, aguenta, vira base nova, estica de novo. Sem heroísmo.\n\nQuem aposta tudo de uma vez geralmente não está corajoso. Está com pressa. E pressa é medo disfarçado de ousadia.\n\nCoragem sustentável é chata. Por isso ninguém posta sobre ela.",
+          "cta": "Você acha que arriscar tudo é coragem ou pressa? Quero ler os comentários."
+        },
+        {
+          "persona": "Tony Robbins",
+          "tema": "produtividade e foco",
+          "gancho": "Onde vai o foco, vai a energia. E onde vai a energia, vai a sua vida.",
+          "corpo": "Isso parece frase de camiseta até você aplicar em um dia específico.\n\nPensa em ontem. Onde a sua atenção passou mais tempo? Se foi em notícia ruim, em briga na internet, em preocupação com o que você não controla, então a sua energia foi pra lá. E energia não volta.\n\nO ponto que quase ninguém percebe: foco não é sobre concentração, é sobre direção. Você pode estar extremamente concentrado no problema errado e chamar isso de trabalho.\n\nFaz esse exercício agora. Fecha os olhos por dez segundos e responde: qual é a única coisa que, resolvida, tornaria as outras mais fáceis ou desnecessárias?\n\nVocê sabe a resposta. Você sempre soube. O que faltou não foi clareza, foi coragem de dar a ela o tempo que ela merece, em vez de espalhar o dia em coisa pequena que dá sensação de movimento.",
+          "cta": "Escreve essa única coisa nos comentários. Escrever muda o compromisso."
+        },
+        {
+          "persona": "Jim Rohn",
+          "tema": "mentalidade e crenças",
+          "gancho": "Não é o vento que decide o destino do navio. É a posição da vela.",
+          "corpo": "O mesmo vento sopra para todos. A mesma economia, a mesma cidade, a mesma crise. E ainda assim uns avançam e outros recuam.\n\nA diferença nunca foi a circunstância. Foi o ajuste.\n\nAs pessoas passam a vida esperando um vento melhor. Reclamam do governo, do mercado, da sorte, do momento. E enquanto reclamam, não ajustam nada, então o vento continua as levando exatamente pra onde elas não queriam ir.\n\nReclamar é confortável porque transfere a responsabilidade. Ajustar é desconfortável porque assume.\n\nMas repara: quem assume ganha algo que o reclamante nunca terá, que é poder. Porque se o problema é o vento, você não pode fazer nada. Se o problema é a vela, você pode fazer tudo.\n\nE quase sempre é a vela. Não porque a vida seja justa, mas porque é o único lugar onde você tem mão.",
+          "cta": "Compartilha com alguém que está esperando o vento mudar."
+        }
+      ]
+    },
+    {
+      "id": "lote-07",
+      "roteiros": [
+        {
+          "persona": "Andrew Tate",
+          "tema": "negócios e vendas",
+          "gancho": "Você não perdeu a venda no preço. Você perdeu quando aceitou que ia pensar.",
+          "corpo": "Vou pensar não é uma etapa do processo. É um não educado que você resolveu tratar como esperança.\n\nE aí você faz o que todo mundo faz: agradece, diz fico à disposição, e espera. Espera uma semana, duas, manda aquele oi tudo bem, e nunca mais.\n\nPensar em quê, exatamente? Se a pessoa entendeu o que resolve o problema dela e confiou em você, ela decide. Quando ela diz que vai pensar, alguma coisa ficou sem resposta e ela não teve coragem de dizer o que era.\n\nSeu trabalho não é pressionar. É perguntar. O que ainda está te deixando em dúvida? Pergunta direta, sem medo da resposta, e depois cala a boca e escuta.\n\nA maioria perde negócio por educação excessiva. Não é falta de técnica. É falta de coragem de ouvir um não na sua frente.",
+          "cta": "Comenta PENSAR se você já perdeu venda assim."
+        },
+        {
+          "persona": "Alex Hormozi",
+          "tema": "storytelling e comunicação",
+          "gancho": "Volume vence talento. E ninguém quer ouvir isso porque volume é chato.",
+          "corpo": "Todo mundo procura o vídeo que vai estourar. A ideia genial. O ângulo perfeito. E fica três semanas planejando um conteúdo, enquanto alguém pior tecnicamente publicou vinte e um.\n\nAqui está a matemática que ninguém quer encarar. Você não sabe o que vai funcionar. Ninguém sabe. Nem quem tem milhões de seguidores sabe qual dos vídeos vai bombar, e eles admitem isso abertamente.\n\nSe você não sabe qual acerta, a única variável sob seu controle é quantas vezes você tenta.\n\nE tem um bônus que quase ninguém menciona: volume não é só mais chance. É mais aprendizado. Quem publicou vinte e um vídeos está tecnicamente melhor que quem publicou um, independente de resultado.\n\nQualidade não vem antes do volume. Ela vem do volume. É consequência, não pré-requisito.",
+          "cta": "Salva e assume um número por semana. Comenta ele aqui."
+        },
+        {
+          "persona": "Ryan",
+          "tema": "produtividade e foco",
+          "gancho": "Multitarefa não existe. O que existe é você fazendo várias coisas mal ao mesmo tempo.",
+          "corpo": "E o pior é que virou item de currículo. As pessoas escrevem isso com orgulho, como se fosse habilidade.\n\nO cérebro não paraleliza tarefa que exige atenção. Ele alterna. E cada alternância cobra um pedágio de reorganização, que você não percebe individualmente mas paga o dia inteiro.\n\nPor isso você termina a semana exausto sem conseguir apontar o que entregou. Você não trabalhou pouco. Você trocou de contexto duzentas vezes.\n\nE tem um efeito colateral pior que a lentidão: a alternância constante destrói a capacidade de pensar fundo. Pensamento profundo precisa de tempo contínuo e chato. Quem nunca fica sozinho com um problema por noventa minutos perde a habilidade de resolver problema difícil.\n\nAí sobra só problema fácil. E problema fácil, qualquer um resolve, então paga pouco.",
+          "cta": "Quanto tempo seguido você fica numa coisa só? Responde aí, com sinceridade."
+        },
+        {
+          "persona": "Tony Robbins",
+          "tema": "disciplina e hábitos",
+          "gancho": "Você não repete o hábito porque ele é bom. Você repete porque ele te dá alguma coisa.",
+          "corpo": "Todo hábito, inclusive o que te destrói, está entregando um benefício. Se não estivesse, você já teria largado sem esforço nenhum.\n\nRolar o feed até tarde entrega fuga. Comer mal entrega conforto imediato. Adiar a conversa difícil entrega alívio. Nenhum desses é burrice. São soluções que funcionam, só que o preço vem depois.\n\nPor isso força de vontade sozinha falha. Você está tentando arrancar algo que está te servindo, sem colocar nada no lugar. O vazio sempre vence.\n\nA pergunta certa não é como eu paro. É o que esse hábito está resolvendo pra mim?\n\nQuando você descobre a necessidade real, você pode atendê-la de outro jeito. E aí o hábito antigo cai sozinho, sem guerra, porque perdeu a função.\n\nVocê não precisa de mais disciplina. Precisa de mais honestidade sobre o que você está buscando.",
+          "cta": "Escolhe um hábito que te atrapalha e responde nos comentários: o que ele te dá?"
+        },
+        {
+          "persona": "Jim Rohn",
+          "tema": "storytelling e comunicação",
+          "gancho": "Trabalhe mais em você mesmo do que no seu emprego.",
+          "corpo": "Porque o que você ganha no trabalho é a vida que você tem. O que você se torna trabalhando em si mesmo é a vida que você pode ter.\n\nA maioria das pessoas inverte isso. Dedica dez horas ao emprego e zero hora a si mesma. Aí espera que o emprego, sozinho, produza uma vida diferente. Não produz. Ele produz exatamente o que está no contrato.\n\nHabilidade nova, leitura, conversa com quem sabe mais, prática deliberada. Isso é o que muda a curva. E raramente cabe no expediente, porque o expediente foi desenhado pra entregar resultado, não pra te desenvolver.\n\nEntão sobra uma escolha desconfortável: tirar de onde dói. Do descanso, do lazer, do sono às vezes. Por uma temporada.\n\nNão pra sempre. Só até você valer mais do que vale hoje. Depois disso, o tempo volta, e volta com juros.",
+          "cta": "Marca alguém que precisa ouvir isso essa semana."
+        }
+      ]
+    }
+  ]
+}

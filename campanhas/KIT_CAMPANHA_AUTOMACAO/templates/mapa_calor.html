@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mapa de Calor — Caminhoneiros | PAB</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:#0a0c10;color:#eef0f3;font-family:'Segoe UI',system-ui,sans-serif;padding:30px;line-height:1.5}
+  .wrap{max-width:1100px;margin:0 auto}
+  .kik{color:#d4af37;font-size:12px;letter-spacing:3px;text-transform:uppercase;font-weight:700}
+  h1{font-size:28px;font-weight:800;margin:6px 0 2px}
+  .sub{color:#8b94a6;font-size:13px;margin-bottom:24px}
+  h2{font-size:13px;text-transform:uppercase;letter-spacing:1.5px;color:#d4af37;margin:28px 0 14px;font-weight:700}
+  .layout{display:grid;grid-template-columns:1.1fr 1fr;gap:24px;align-items:start}
+  /* mapa tile-grid */
+  .map{display:grid;grid-template-columns:repeat(5,1fr);grid-template-rows:repeat(6,52px);gap:6px}
+  .st{border-radius:8px;display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:11px;font-weight:700;border:1px solid rgba(255,255,255,.08);position:relative}
+  .st .uf{font-size:13px} .st .v{font-size:9px;font-weight:600;opacity:.85;margin-top:1px}
+  .g1{background:#1f7a4d;color:#eafff3} /* otimo */
+  .g2{background:#2f9d63;color:#eafff3}
+  .am{background:#b5852a;color:#fff6e0}
+  .rd{background:#a83232;color:#ffeaea}
+  .nd{background:#161a22;color:#8b94a6;border:1px dashed #3a4250}
+  .exp{outline:2px solid #d4af37;outline-offset:1px}
+  .empty{background:transparent;border:none}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th,td{text-align:left;padding:9px 8px;border-bottom:1px solid #272e3b}
+  th{color:#8b94a6;font-size:10px;text-transform:uppercase}
+  td.n{text-align:right;font-variant-numeric:tabular-nums}
+  .leg{display:flex;gap:14px;flex-wrap:wrap;margin-top:14px;font-size:12px;color:#cfd4dd}
+  .leg span{display:inline-flex;align-items:center;gap:6px}
+  .dot{width:13px;height:13px;border-radius:3px;display:inline-block}
+  .box{background:#13171f;border-left:3px solid #d4af37;padding:14px 18px;border-radius:8px;margin:14px 0;font-size:13px;color:#cfd4dd}
+  .box.green{border-left-color:#3ecf8e} .box b{color:#fff}
+  .rec{background:#13171f;border:1px solid #272e3b;border-radius:12px;padding:18px;margin-top:10px}
+  .tag{padding:2px 9px;border-radius:12px;font-size:11px;font-weight:700}
+  .ak{background:rgba(111,177,255,.15);color:#6fb1ff} .new{background:rgba(212,175,55,.18);color:#f1d27a}
+  @media(max-width:820px){.layout{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="kik">PAB Advocacia · Inteligência Geográfica</div>
+  <h1>🗺️ Mapa de Calor — Onde o Caminhoneiro Converte</h1>
+  <div class="sub">Custo por conexão de mensagem (WhatsApp) por estado · base: campanhas AK + Jonck · jun/2026</div>
+
+  <div class="layout">
+    <div>
+      <h2 style="margin-top:0">Mapa (quanto + verde, + barato o lead)</h2>
+      <div class="map">
+        <!-- grid 5col aproximando geografia BR (foco nas regioes de transporte) -->
+        <div class="st empty"></div>
+        <div class="st nd exp" title="expansao"><span class="uf">TO</span><span class="v">testar</span></div>
+        <div class="st empty"></div>
+        <div class="st empty"></div>
+        <div class="st rd"><span class="uf">PE</span><span class="v">R$26,1</span></div>
+
+        <div class="st empty"></div>
+        <div class="st g1 exp"><span class="uf">MT</span><span class="v">R$6,53</span></div>
+        <div class="st nd exp"><span class="uf">GO</span><span class="v">testar</span></div>
+        <div class="st empty"></div>
+        <div class="st empty"></div>
+
+        <div class="st empty"></div>
+        <div class="st nd exp"><span class="uf">MS</span><span class="v">testar</span></div>
+        <div class="st am"><span class="uf">MG</span><span class="v">R$8,16</span></div>
+        <div class="st empty"></div>
+        <div class="st empty"></div>
+
+        <div class="st empty"></div>
+        <div class="st nd exp"><span class="uf">PR</span><span class="v">testar</span></div>
+        <div class="st g2"><span class="uf">SP</span><span class="v">R$7,16</span></div>
+        <div class="st empty"></div>
+        <div class="st empty"></div>
+
+        <div class="st empty"></div>
+        <div class="st g2"><span class="uf">SC</span><span class="v">R$7,30</span></div>
+        <div class="st empty"></div>
+        <div class="st empty"></div>
+        <div class="st empty"></div>
+
+        <div class="st g2"><span class="uf">RS</span><span class="v">R$7,38</span></div>
+        <div class="st empty"></div>
+        <div class="st empty"></div>
+        <div class="st empty"></div>
+        <div class="st empty"></div>
+      </div>
+      <div class="leg">
+        <span><i class="dot" style="background:#1f7a4d"></i> Ótimo (&lt;R$7)</span>
+        <span><i class="dot" style="background:#2f9d63"></i> Bom (R$7–7,5)</span>
+        <span><i class="dot" style="background:#b5852a"></i> Médio (R$7,5–10)</span>
+        <span><i class="dot" style="background:#a83232"></i> Ruim (&gt;R$10)</span>
+        <span><i class="dot" style="background:#161a22;border:1px dashed #3a4250"></i> Expansão (sem dado)</span>
+      </div>
+    </div>
+
+    <div>
+      <h2 style="margin-top:0">Ranking por estado</h2>
+      <table>
+        <thead><tr><th>Estado</th><th class="n">Custo/msg</th><th class="n">CTR</th><th>Zona</th></tr></thead>
+        <tbody>
+          <tr><td>🟢 Mato Grosso</td><td class="n">R$ 6,53</td><td class="n">3,86%</td><td><span class="tag new">NOVA</span></td></tr>
+          <tr><td>🟢 São Paulo</td><td class="n">R$ 7,16</td><td class="n">4,84%</td><td><span class="tag ak">AK</span></td></tr>
+          <tr><td>🟢 Santa Catarina</td><td class="n">R$ 7,30</td><td class="n">4,23%</td><td><span class="tag ak">AK</span></td></tr>
+          <tr><td>🟢 Rio Grande do Sul</td><td class="n">R$ 7,38</td><td class="n">4,96%</td><td><span class="tag ak">AK</span></td></tr>
+          <tr><td>🟡 Minas Gerais</td><td class="n">R$ 8,16</td><td class="n">3,83%</td><td><span class="tag ak">AK</span></td></tr>
+          <tr><td>🔴 Pernambuco</td><td class="n">R$ 26,14</td><td class="n">1,80%</td><td>❌ cortar</td></tr>
+        </tbody>
+      </table>
+      <div class="box green"><b>Mato Grosso = lead mais barato (R$ 6,53)</b> e está FORA da campanha atual. É o coração do agro/transporte rodoviário — pouca disputa, caminhoneiro de sobra.</div>
+    </div>
+  </div>
+
+  <h2>🎯 Recomendação — divisão geográfica (sem competir)</h2>
+  <div class="rec">
+    <p style="color:#cfd4dd;margin-bottom:12px">Pra rodar a campanha nova <b>sem brigar no leilão</b> com a AK atual, dividir o Brasil em duas zonas:</p>
+    <table>
+      <tr><td><span class="tag ak">CAMPANHA AK (atual)</span></td><td style="color:#cfd4dd">Mantém o eixo Sul/Sudeste: <b>SP, RS, SC</b> (os fortes) — reavaliar MG (fraco)</td></tr>
+      <tr><td><span class="tag new">CAMPANHA NOVA (Jonck)</span></td><td style="color:#cfd4dd">Corredor Centro-Oeste/agro: <b>MT (provado R$6,53) + GO, MS, PR, TO</b> — rota do grão, caminhoneiro concentrado, leilão barato</td></tr>
+    </table>
+    <p style="color:#8b94a6;font-size:12px;margin-top:12px">PE (Pernambuco/Recife) fica de fora das duas — R$26/msg, não compensa.</p>
+  </div>
+
+  <div class="sub" style="margin-top:26px;text-align:center;border-top:1px solid #272e3b;padding-top:16px">
+    Dados: Meta Marketing API (breakdown por região) · custo por conexão de mensagem · PAB Advocacia
+  </div>
+</div>
+</body>
+</html>

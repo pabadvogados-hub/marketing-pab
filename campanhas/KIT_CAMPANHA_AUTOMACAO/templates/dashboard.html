@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard — Corredor Logístico | PAB</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  /* Identidade visual PAB Advogados: claro, azul-marinho, sépia/bronze, âmbar */
+  :root{--bg:#f6f1e9;--card:#ffffff;--card2:#f3ece1;--line:#e5dccb;--gold:#a9763e;--gold2:#16243f;--green:#2f8a5b;--red:#c0392b;--amber:#cf852b;--txt:#16243f;--mut:#857a6b;}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--txt);font-family:'Montserrat','Segoe UI',sans-serif;padding:28px;line-height:1.5}
+  .wrap{max-width:1180px;margin:0 auto}
+  header{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:12px;border-bottom:1px solid var(--line);padding-bottom:18px;margin-bottom:24px}
+  h1{font-size:25px;font-weight:800} h1 .em{color:var(--gold)}
+  .sub{color:var(--mut);font-size:13px;margin-top:4px}
+  .badge{background:rgba(255,180,84,.12);color:var(--amber);border:1px solid rgba(255,180,84,.4);padding:5px 12px;border-radius:20px;font-size:12px;font-weight:600}
+  h2{font-size:13px;text-transform:uppercase;letter-spacing:1.5px;color:var(--gold);margin:30px 0 14px;font-weight:700}
+  .note{background:var(--card2);border-left:3px solid var(--amber);padding:13px 18px;border-radius:8px;font-size:13px;color:var(--mut);margin-bottom:10px}
+  .note b{color:var(--txt)}
+  .grid{display:grid;gap:16px}.k3{grid-template-columns:repeat(3,1fr)}.k4{grid-template-columns:repeat(4,1fr)}
+  .terr{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;position:relative;overflow:hidden}
+  .terr .ico{font-size:22px} .terr h3{font-size:15px;margin:6px 0 2px;color:var(--gold2)}
+  .terr .geo{font-size:11px;color:var(--mut);margin-bottom:14px}
+  .terr .row{display:flex;justify-content:space-between;padding:6px 0;border-top:1px solid var(--line);font-size:13px}
+  .terr .row .k{color:var(--mut)} .terr .row .v{font-weight:700}
+  .terr .bud{position:absolute;top:16px;right:16px;font-size:11px;background:var(--card2);border:1px solid var(--line);padding:3px 8px;border-radius:8px;color:var(--gold2)}
+  .cmp{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px}
+  .cmp table{width:100%;border-collapse:collapse}
+  .cmp td,.cmp th{padding:12px 10px;border-bottom:1px solid var(--line);text-align:left;font-size:14px}
+  .cmp th{color:var(--mut);font-size:11px;text-transform:uppercase}
+  .cmp td.n{text-align:right;font-variant-numeric:tabular-nums}
+  .big{font-size:24px;font-weight:800}
+  .aguardando{color:var(--mut);font-style:italic}
+  footer{text-align:center;color:var(--mut);font-size:11px;margin-top:34px;border-top:1px solid var(--line);padding-top:16px}
+  @media(max-width:820px){.k3,.k4{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>🛣️ Dashboard — <span class="em">Corredor Logístico</span></h1>
+      <div class="sub">[AUTOMACAO] Caminhoneiros · campanha lançada 100% pela automação · CA01 · atualizado 30/06/2026</div>
+    </div>
+    <div class="badge" id="status" style="background:rgba(47,138,91,.12);color:#2f8a5b;border-color:rgba(47,138,91,.4)">● Ativa · R$ 7,47/conversa</div>
+  </header>
+
+  <div class="note" id="learn"></div>
+
+  <h2>Performance por território</h2>
+  <div class="grid k3" id="terrs"></div>
+
+  <h2>🆚 Comparação com a vencedora da Jonck (meta a bater)</h2>
+  <div class="cmp">
+    <table>
+      <thead><tr><th>Métrica</th><th class="n">🏆 Jonck (referência)</th><th class="n">🆕 Corredor (atual)</th><th class="n">Situação</th></tr></thead>
+      <tbody id="cmp"></tbody>
+    </table>
+    <div class="note" style="border-left-color:var(--gold);margin-top:14px"><b>Como ler:</b> a Jonck fez <b>190 conversas a R$ 7,18</b> cada (gastando R$ 1.365). Quando a campanha nova acumular dados, esta tabela mostra se o Corredor está batendo esse custo — e em quais territórios.</div>
+  </div>
+
+  <h2>Como atualizar</h2>
+  <div class="note" style="border-left-color:var(--green)">Rode <b>python MARKETING/atualizar_corredor.py</b> (ou o gerador de dados) pra repuxar os números e recarregue esta página. Os dados começam a aparecer em <b>24-48h</b> conforme a campanha sai do aprendizado.</div>
+
+  <footer>Dados ao vivo da Meta Marketing API · token System User · PAB Advocacia</footer>
+</div>
+
+<script>
+const DATA = {"campanha": {"gasto": 518.35, "conversas": 73, "custo_por_conversa": 7.1, "impressoes": 14249, "alcance": 9370, "cliques": 610, "ctr": 4.28, "cpc": 0.85, "periodo": "2026-06-25 a 2026-07-02"}, "territorios": [{"nome": "Centro-Oeste Agro (MT GO MS PR TO)", "gasto": 101.28, "conv": 11, "cpconv": 9.21, "imp": 3313, "cliques": 123, "ctr": 3.71}, {"nome": "Corredor BR-163 (PA)", "gasto": 46.97, "conv": 6, "cpconv": 7.83, "imp": 1554, "cliques": 47, "ctr": 3.02}, {"nome": "Porto de Suape (PE)", "gasto": 234.18, "conv": 34, "cpconv": 6.89, "imp": 5818, "cliques": 255, "ctr": 4.38}, {"nome": "Porto de Santos (SP)", "gasto": 97.76, "conv": 15, "cpconv": 6.52, "imp": 2603, "cliques": 134, "ctr": 5.15}, {"nome": "Lookalike Caminhoneiros (VV + CLT) - BR", "gasto": 38.16, "conv": 7, "cpconv": 5.45, "imp": 961, "cliques": 51, "ctr": 5.31}], "jonck": {"conversas": 190, "cpconv": 7.18, "gasto": 1365.0, "ctr": 4.16}, "camp_id": "000000000000"};
+const BRL=v=>'R$ '+(v||0).toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2});
+const N=v=>(v||0).toLocaleString('pt-BR');
+const ICON={'Centro-Oeste':'🌾','Suape':'⚓','BR-163':'🛣️'};
+function ico(nome){for(const k in ICON){if(nome.includes(k))return ICON[k];}return '📍';}
+
+const terrs=DATA.territorios||[];
+const totalGasto=terrs.reduce((s,t)=>s+(t.gasto||0),0);
+const totalConv=terrs.reduce((s,t)=>s+(t.conv||0),0);
+
+document.getElementById('learn').innerHTML = totalConv>0
+  ? '🚀 <b>Campanha entregando.</b> '+totalConv+' conversas até agora. Compare os territórios abaixo e veja o ranking vs Jonck.'
+  : '⏳ <b>Campanha recém-lançada (22/06) — em fase de aprendizado.</b> Os 3 territórios estão no ar (Centro-Oeste já entregando, Suape e BR-163 em processamento da Meta). Dados de conversa começam a aparecer em 24-48h. O dashboard já está pronto pra popular.';
+
+document.getElementById('terrs').innerHTML = terrs.map(t=>{
+  const temDado=(t.gasto||0)>0;
+  return `<div class="terr">
+    <div class="bud">R$ ${t.budget||20}/dia</div>
+    <div class="ico">${ico(t.nome)}</div>
+    <h3>${t.nome.replace(/\(.*\)/,'').trim()}</h3>
+    <div class="geo">${(t.nome.match(/\((.*)\)/)||['',''])[1]||'—'}</div>
+    <div class="row"><span class="k">Gasto</span><span class="v">${temDado?BRL(t.gasto):'<span class=aguardando>aguardando</span>'}</span></div>
+    <div class="row"><span class="k">Conversas</span><span class="v">${temDado?N(t.conv):'<span class=aguardando>—</span>'}</span></div>
+    <div class="row"><span class="k">Custo/conversa</span><span class="v" style="color:${t.cpconv&&t.cpconv<7.18?'var(--green)':'var(--txt)'}">${t.conv>0?BRL(t.cpconv):'<span class=aguardando>—</span>'}</span></div>
+    <div class="row"><span class="k">CTR</span><span class="v">${temDado?t.ctr+'%':'<span class=aguardando>—</span>'}</span></div>
+  </div>`;
+}).join('');
+
+const J=DATA.jonck||{};
+const cpAtual=totalConv>0?(totalGasto/totalConv):0;
+function sit(){
+  if(totalConv<=0) return '<span class="aguardando">aguardando dados</span>';
+  if(cpAtual<=J.cpconv) return '<span style="color:var(--green);font-weight:700">✅ batendo</span>';
+  return '<span style="color:var(--amber);font-weight:700">↑ acima</span>';
+}
+document.getElementById('cmp').innerHTML = `
+  <tr><td>Conversas</td><td class="n">${J.conversas}</td><td class="n">${totalConv>0?N(totalConv):'<span class=aguardando>—</span>'}</td><td class="n">—</td></tr>
+  <tr><td><b>Custo por conversa</b></td><td class="n big">${BRL(J.cpconv)}</td><td class="n big">${totalConv>0?BRL(cpAtual):'<span class=aguardando>—</span>'}</td><td class="n">${sit()}</td></tr>
+  <tr><td>CTR</td><td class="n">${J.ctr}%</td><td class="n">—</td><td class="n">—</td></tr>
+  <tr><td>Investido</td><td class="n">${BRL(J.gasto)}</td><td class="n">${BRL(totalGasto)}</td><td class="n">—</td></tr>`;
+</script>
+</body>
+</html>

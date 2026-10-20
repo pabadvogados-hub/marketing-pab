@@ -1,0 +1,172 @@
+{
+  "template_id": "DAHGQs_mESM",
+  "template_nome": "Automatização Jurídica com IA",
+  "perfil": "@wpcasalda.ia",
+  "pages": 7,
+  "element_map": {
+    "SLIDE_1": {
+      "page_index": 1,
+      "page_id": "PBPjhsl1SBxjCPgB",
+      "elements": {
+        "HEADLINE": {
+          "id": "PBPjhsl1SBxjCPgB-LBvj6HMtFGN4BW2P",
+          "placeholder": "CASO REAL 2026\nDE 3 HORAS\nPARA 5 MINUTOS.",
+          "keys": ["LABEL_1", "HEAD_1A", "HEAD_1B"],
+          "format": "{LABEL_1}\n{HEAD_1A}\n{HEAD_1B}"
+        },
+        "SUBTITULO": {
+          "id": "PBPjhsl1SBxjCPgB-LBKFsxng0KRXzlM1",
+          "placeholder": "Como automatizamos a contratação de clientes com IA",
+          "keys": ["SUB_1"]
+        }
+      }
+    },
+    "SLIDE_2": {
+      "page_index": 2,
+      "page_id": "PBkwvBWnZh1b64kX",
+      "elements": {
+        "HEADLINE": {
+          "id": "PBkwvBWnZh1b64kX-LBj2WpB4kqHRtsZc",
+          "placeholder": "O PROBLEMA REAL\nA BUROCRACIA EXISTE.",
+          "keys": ["LABEL_2", "HEAD_2A"],
+          "format": "{LABEL_2}\n{HEAD_2A}"
+        },
+        "HEAD_GOLD": {
+          "id": "PBkwvBWnZh1b64kX-LBxylFP7SdrrVdhK",
+          "placeholder": "O TEMPO NÃO.",
+          "keys": ["HEAD_2B"]
+        },
+        "BODY": {
+          "id": "PBkwvBWnZh1b64kX-LBkdrbQgs4QbDSFF",
+          "placeholder": "Preencher contratos manualmente...",
+          "keys": ["BODY_2"]
+        }
+      }
+    },
+    "SLIDE_3": {
+      "page_index": 3,
+      "page_id": "PBND1Xf4H5CSTzYl",
+      "elements": {
+        "LABEL": {
+          "id": "PBND1Xf4H5CSTzYl-LBZZxM5GZ32wBgnx",
+          "placeholder": "O FLUXO COM IA",
+          "keys": ["LABEL_3"]
+        },
+        "HEADLINE": {
+          "id": "PBND1Xf4H5CSTzYl-LB5cBxqM1SbJjjKF",
+          "placeholder": "DA REUNIÃO\nÀ ENTREGA",
+          "keys": ["HEAD_3A", "HEAD_3B"],
+          "format": "{HEAD_3A}\n{HEAD_3B}"
+        },
+        "CARD_1": {
+          "id": "PBND1Xf4H5CSTzYl-LB76q1vFym2HpTPv",
+          "keys": ["CARD_3A_LABEL", "CARD_3A_TEXT"],
+          "format": "{CARD_3A_LABEL}\n{CARD_3A_TEXT}"
+        },
+        "CARD_2": {
+          "id": "PBND1Xf4H5CSTzYl-LBwwVKtc05bYQNTn",
+          "keys": ["CARD_3B_LABEL", "CARD_3B_TEXT"],
+          "format": "{CARD_3B_LABEL}\n{CARD_3B_TEXT}"
+        },
+        "CARD_3": {
+          "id": "PBND1Xf4H5CSTzYl-LB38gfbPXJ0xx1Zj",
+          "keys": ["CARD_3C_LABEL", "CARD_3C_TEXT"],
+          "format": "{CARD_3C_LABEL}\n{CARD_3C_TEXT}"
+        },
+        "CARD_4": {
+          "id": "PBND1Xf4H5CSTzYl-LBLTqWRnG2tQwcgM",
+          "keys": ["CARD_3D_LABEL", "CARD_3D_TEXT"],
+          "format": "{CARD_3D_LABEL}\n{CARD_3D_TEXT}"
+        }
+      }
+    },
+    "SLIDE_4": {
+      "page_index": 4,
+      "page_id": "PBr7fSqzf9dgGPZj",
+      "elements": {
+        "LABEL": {
+          "id": "PBr7fSqzf9dgGPZj-LBXk5YdVGWhhMpRp",
+          "placeholder": "ETAPA 01 - ANÁLISE",
+          "keys": ["LABEL_4"]
+        },
+        "BODY": {
+          "id": "PBr7fSqzf9dgGPZj-LBhphcB2gjM1h9mz",
+          "placeholder": "Input: Áudio ou PDF...",
+          "keys": ["INPUT_4", "PROCESS_4", "RESULT_4"],
+          "format": "Input: {INPUT_4} → {PROCESS_4} → Output: {RESULT_4}"
+        }
+      }
+    },
+    "SLIDE_5": {
+      "page_index": 5,
+      "page_id": "PBysq7RnkmqjhYlN",
+      "elements": {
+        "LABEL": {
+          "id": "PBysq7RnkmqjhYlN-LBdr623LzCSFyBjM",
+          "placeholder": "ETAPAS 02 E 03",
+          "keys": ["LABEL_5"]
+        },
+        "HEADLINE": {
+          "id": "PBysq7RnkmqjhYlN-LB1z1m6bXhf1vmwj",
+          "placeholder": "DOCUMENTOS E ASSINATURA AUTOMÁTICA",
+          "keys": ["HEAD_5A", "HEAD_5B"],
+          "format": "{HEAD_5A} {HEAD_5B}"
+        },
+        "BODY": {
+          "id": "PBysq7RnkmqjhYlN-LBhJMRpjmsvzf5tX",
+          "placeholder": "COMPARATIVO DE TEMPO...",
+          "keys": ["TAB_5A_SKILL", "TAB_5A_ANTES", "TAB_5A_IA", "TAB_5B_SKILL", "TAB_5B_ANTES", "TAB_5B_IA", "PROMPT_5"],
+          "format": "COMPARATIVO DE TEMPO\n{TAB_5A_SKILL}\nAntes: {TAB_5A_ANTES} | Com IA: {TAB_5A_IA}\n{TAB_5B_SKILL}\nAntes: {TAB_5B_ANTES} | Com IA: {TAB_5B_IA}\n{PROMPT_5}"
+        }
+      }
+    },
+    "SLIDE_6": {
+      "page_index": 6,
+      "page_id": "PB3M18rt2FFL0Dlx",
+      "elements": {
+        "LABEL": {
+          "id": "PB3M18rt2FFL0Dlx-LBGtkN3BWnfJ65p2",
+          "placeholder": "O RESULTADO",
+          "keys": ["LABEL_6"]
+        },
+        "HEAD_GOLD": {
+          "id": "PB3M18rt2FFL0Dlx-LB265WjKF3KHn1HH",
+          "placeholder": "NÚMEROS REAIS.",
+          "keys": ["HEAD_6A", "HEAD_6B"],
+          "format": "{HEAD_6A} {HEAD_6B}"
+        },
+        "METRIC_1": {
+          "id": "PB3M18rt2FFL0Dlx-LBNTtkxffsRWwwTy",
+          "keys": ["METRIC_6A"]
+        },
+        "METRIC_2": {
+          "id": "PB3M18rt2FFL0Dlx-LB3c9hYKjvtpq0Vh",
+          "keys": ["METRIC_6B"]
+        },
+        "METRIC_3": {
+          "id": "PB3M18rt2FFL0Dlx-LBB0gqR6d9rfpnNg",
+          "keys": ["METRIC_6C", "CLOSING_6"],
+          "format": "{METRIC_6C} {CLOSING_6}"
+        }
+      }
+    },
+    "SLIDE_7": {
+      "page_index": 7,
+      "page_id": "PBMMsnZ6p0smfxNn",
+      "elements": {
+        "HEADLINE": {
+          "id": "PBMMsnZ6p0smfxNn-LBdsNznK4b1m2vy2",
+          "placeholder": "QUER AUTOMATIZAR SEU ESCRITÓRIO TAMBÉM?",
+          "keys": ["HEAD_7A", "HEAD_7B"],
+          "format": "{HEAD_7A} {HEAD_7B}"
+        },
+        "CTA": {
+          "id": "PBMMsnZ6p0smfxNn-LB3Dk17dRkS83wYK",
+          "placeholder": "Somos advogados que cansaram...",
+          "keys": ["INTRO_7", "CTA_7_INST", "CTA_7_WORD", "CTA_7_DETAIL"],
+          "format": "{INTRO_7}\n{CTA_7_INST} {CTA_7_WORD} {CTA_7_DETAIL}"
+        }
+      }
+    }
+  }
+}
